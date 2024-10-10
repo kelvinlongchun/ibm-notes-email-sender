@@ -1,16 +1,18 @@
-# Overview
+# IBM Notes Email Sender
+
+## Overview
 
 Email sender python script for IBM Notes 📧
 
-# Get Started
+## Get Started
 
-## Import Model
+### Import Model
 
 ```py
 from models.NotesMail import NotesMail
 ```
 
-## Create NotesMail Object
+### Create NotesMail Object
 
 Create `NotesMail` object. You need your server name and IBM Notes nsf file path.
 
@@ -20,12 +22,12 @@ MAIL_DB_NAME = "mail\your_username.nsf"
 mail = NotesMail(MAIL_SERVER_NAME, MAIL_DB_NAME)
 ```
 
-## Send The Email
+### Send The Email
 
 Use function `.send_email` to send the email via IBM Notes.
 
 ```py
-pyrecivers = ["amy.cheng@xyz.com"]
+recivers = ["amy.cheng@xyz.com"]
 subject = "Hello!"
 body = "This is a test mail."
 attachments = ["./test.xlsx"]
