@@ -38,5 +38,3 @@ class NotesMail:
         mail_doc.SaveMessageOnSend = True
 
         mail_doc.Send(0, recivers)
-
-        print("Email is sent.")
