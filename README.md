@@ -1,8 +1,6 @@
 # IBM Notes Email Sender
 
-## Overview
-
-Email sender python script for IBM Notes 📧
+A Python module of email sender for IBM Notes 📧
 
 ## Get Started
 
